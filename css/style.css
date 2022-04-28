@@ -1,3 +1,46 @@
+:root {
+  --body-bg: rgb(186, 37, 28);
+  --body-color: #fff;
+  --text-shadow: rgb(0 0 0 / 72%);
+  --initial-color-btn: rgb(226, 51, 32);
+  --final-color-btn: rgb(206, 26, 9);
+  --btn-shadow: rgb(0 0 0 / 30%);
+  --bg-paragraph: rgb(163, 15, 5);
+}
+
 body {
-  background-color: rgb(186, 37, 28);
+  background-color: var(--body-bg);
+  color: var(--body-color);
+}
+
+.first-title {
+  text-shadow: 3px 3px 10px var(--text-shadow);
+}
+
+.car-size {
+  width: -webkit-fill-available;
+}
+
+.button-color {
+  color: var(--body-color);
+}
+
+.bg-gradient-button {
+  background-image: linear-gradient(180deg, var(--initial-color-btn) 0%, var(--final-color-btn) 100%);
+}
+
+.button-shadow {
+  box-shadow: 3px 3px 10px 6px var(--btn-shadow);
+}
+
+.bg-paragraph {
+  background-color: var(--bg-paragraph);
+}
+
+.input-color-text {
+  color: var(--bs-gray-600);
+}
+
+.text-area-height {
+  height: 217px;
 }
